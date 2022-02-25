@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.header{
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{
+
+}
+.navi{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.navi ul{
+    display: flex;
+    margin: 0;
+    padding: 0;    
+    justify-content: flex-end;
+}
+.navi ul li{
+    list-style: none;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: #1c85c3;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+}
+
+
+.pic-1{
+    background-image: url(nil/portfolio-1.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.pic-2{
+    background-image: url(nil/portfolio-2.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.pic-3{
+    background-image: url(nil/portfolio-3.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.pic-4{
+    background-image: url(nil/portfolio-4.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.pic-5{
+    background-image: url(nil/portfolio-5.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.h1{
+    font-size: 55px;
+    background: #ff214fad;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 10px 0;
+    color: white;
+}
+.h2{
+    font-size: 45px;
+    background: #fff200b0;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 10px 0;
+    color: white;
+}
+.h3{
+    font-size: 45px;
+    background: #00fbef94;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 0;
+}
+.h4{
+    font-size: 45px;
+    background: #d481fdb3;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 10px 0;
+    color: white;
+}
+.h5{
+    font-size: 45px;
+    background: #ff21b1ad;
+    width: 450px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 10px 0;
+}
